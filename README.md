@@ -4,7 +4,7 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 
 <p align="center">
   <a href="https://github.com/larissamo1/analiseacidentesdetransito/issues/1#issue-3529227152">
-    <img src="imagens/capa_analise_acidentes.png" alt="Imagem ilustrativa da análise de acidentes" width="700">
+    <img src="images/capa_analise_acidentes.png" alt="Imagem ilustrativa da análise de acidentes" width="700">
   </a>
 </p>
 

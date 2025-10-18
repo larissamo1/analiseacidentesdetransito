@@ -23,8 +23,15 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 1. **Coleta de Dados:**  
    Obtenção dos registros oficiais de acidentes de trânsito em Porto Alegre.
 
+   Importação dos dados
+import pandas as pd 
+df = pd.read_csv ("C:/Users/malaq/OneDrive/Área de Trabalho/projetoanalisedeacidentes/cat_acidentes.csv")
+
 2. **Limpeza e Tratamento:**  
    Padronização de colunas, remoção de valores nulos e ajustes de tipos.
+   import pandas as pd 
+df = pd.read_csv ('C:/Users/malaq/Downloads/cat_acidentes.csv', sep = ';')
+
 
    <p align="center">
      <img src="images/limpeza_dados.png" alt="Etapa de limpeza e tratamento de dados" width="650">

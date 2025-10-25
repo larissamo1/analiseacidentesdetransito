@@ -25,6 +25,7 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
    ```python
    import pandas as pd
    df = pd.read_csv("data/cat_acidentes.csv")
+<img width="847" height="494" alt="Captura de tela 2025-10-24 215856" src="https://github.com/user-attachments/assets/3caa817d-ea41-4b45-a24b-65ff28aa0008" />
 
 
 2. **Limpeza e Tratamento:**  
@@ -33,10 +34,12 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
     ```python
     import pandas as pd
     df = pd.read_csv("data/cat_acidentes.csv", sep=';')
+<img width="1153" height="307" alt="dadospadronizados" src="https://github.com/user-attachments/assets/e50a9feb-55a5-40fc-92ec-089a125c6c2d" />
 
 
 3. **Análise Exploratória (EDA):**  
-   - Distribuição temporal dos acidentes  
+   - Distribuição temporal dos acidentes
+    
    - Mapa de calor por bairro e horário  
    - Relação entre tipo de acidente e gravidade  
 

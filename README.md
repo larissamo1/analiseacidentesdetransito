@@ -3,7 +3,7 @@
 Projeto de análise de dados desenvolvido em Python para investigar os acidentes de trânsito em Porto Alegre. Inclui limpeza, tratamento, visualização e interpretação estatística dos dados.
 
 <p aligin="center">
-  <img src="images/capa_analise_acidentes.png" alt="Imagem ilustrativa da análise de acidentes" width="700">
+  <img src="images\capa_analise_acidentes.png" alt="Imagem ilustrativa da análise de acidentes" width="700">
 </p>
 
 ---

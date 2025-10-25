@@ -19,3 +19,5 @@ df = df.dropna(subset=['latitude', 'longitude'], how='any')
 # Verificando se há dados nulos restantes
 df.isnull().sum()
 
+
+#alterar o arqeuivo para .ipynb

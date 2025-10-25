@@ -37,12 +37,13 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 <img width="1153" height="307" alt="dadospadronizados" src="https://github.com/user-attachments/assets/e50a9feb-55a5-40fc-92ec-089a125c6c2d" />
 
 
-3. **Análise Exploratória (EDA):**  
+3. **Análise Exploratória :**  
    - Distribuição temporal dos acidentes
-    
-   - Mapa de calor por bairro e horário  
-   - Relação entre tipo de acidente e gravidade  
+    <img width="1059" height="545" alt="grafico" src="https://github.com/user-attachments/assets/b3230b56-7796-47e2-ba58-4dd9ad77ad35" />
 
-   <p aligin="center">
-     <img src="images/mapa_calor.png" alt="Mapa de calor dos acidentes em Porto Alegre" width="700">
-   </
+   - Mapa de calor por bairro e horário  
+   
+<img width="997" height="473" alt="mapacalor1" src="https://github.com/user-attachments/assets/f3136dd2-cfb5-4ad4-a5d7-31172515766a" />
+
+<img width="1156" height="470" alt="mapacalor2" src="https://github.com/user-attachments/assets/87a82799-4077-454f-9b89-dde79d75559c" />
+

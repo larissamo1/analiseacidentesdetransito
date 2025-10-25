@@ -1,7 +1,25 @@
 # 🚘 Análise de Acidentes de Trânsito em Porto Alegre
 
-Projeto de análise de dados desenvolvido em Python para investigar os acidentes de trânsito em Porto Alegre. Inclui limpeza, tratamento, visualização e interpretação estatística dos dados.
+Projeto acadêmico de análise de dados desenvolvido em **Python**, que investiga os acidentes de trânsito em Porto Alegre. O projeto envolve **limpeza, tratamento, visualização e interpretação estatística dos dados**.
 
+## Bibliotecas Utilizadas
+
+- **`pandas`**  
+  Importada como `import pandas as pd`  
+  Para **leitura e manipulação de dados** do CSV (`read_csv`, `dropna`, `to_datetime`, `value_counts`, etc.).
+
+- **`folium`**  
+  Importada como `import folium`  
+  Para **criação de mapas interativos**.
+
+- **`folium.plugins`**  
+  Importados `HeatMap` e `MarkerCluster`  
+  - `HeatMap`: cria **mapa de calor** baseado em coordenadas.  
+  - `MarkerCluster`: cria **clusters de marcadores** no mapa.
+
+- **`matplotlib.pyplot`**  
+  Importada como `import matplotlib.pyplot as plt`  
+  Para **criação de gráficos**, neste projeto usado em **gráfico de barras com gradiente de cores**.
 <p aligin="center">
  <img width="1336" height="548" alt="capa_analise_acidentes" src="https://github.com/user-attachments/assets/435b9d1c-bac3-43b4-ae1e-95b3945ec561" />
 </p>
@@ -12,7 +30,7 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 ## 📂 Estrutura do Projeto
 
 - `data/` → Contém os arquivos de dados brutos e tratados. 
-- `notebooks/` → Contém o notebook principal de análise.  
+- `notebooks/` → Contém os noptebooks usados para tratamento e análises  
 - `images/` → Gráficos, mapas e resultados visuais gerados.  
 
 ---
@@ -20,7 +38,7 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 ## 🔍 Principais Etapas
 
 1. **Coleta de Dados:**  
-   Obtenção dos registros oficiais de acidentes de trânsito em Porto Alegre. Os dados foram importados a partir de um arquivo CSV contendo informações de latitude, longitude e data dos acidentes.
+   Obtenção dos registros oficiais de acidentes em Porto Alegre a partir de um CSV contendo **latitude, longitude e data dos acidentes**.
 
    ```python
    import pandas as pd
@@ -47,3 +65,11 @@ Projeto de análise de dados desenvolvido em Python para investigar os acidentes
 
 <img width="1156" height="470" alt="mapacalor2" src="https://github.com/user-attachments/assets/87a82799-4077-454f-9b89-dde79d75559c" />
 
+   📊 Insights Obtidos
+- Concentração de acidentes em cruzamentos, principalmente onde há semáforos, indicando potenciais infrações de trânsito.
+   
+<img width="1159" height="470" alt="concentraçao1" src="https://github.com/user-attachments/assets/a32514a6-dab3-4a82-82a3-6daefd6812e6" />
+<img width="1152" height="313" alt="concentracao2" src="https://github.com/user-attachments/assets/e814fdc7-e089-47c2-8dab-e96ac15ca9ff" />
+
+- O ano de 2020 teve o menor número de acidentes, com menos de 4.000 casos, provavelmente devido à redução de circulação causada pela pandemia de COVID-19.
+<img width="1059" height="545" alt="grafico" src="https://github.com/user-attachments/assets/b8b702b8-564c-4357-a307-a2afef8f4f11" />

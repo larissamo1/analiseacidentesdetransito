@@ -2,9 +2,10 @@
 
 Projeto de análise de dados desenvolvido em Python para investigar os acidentes de trânsito em Porto Alegre. Inclui limpeza, tratamento, visualização e interpretação estatística dos dados.
 
-<p aligir="center">
-     <img src="images/limpeza_dados.png" alt="Etapa de limpeza e tratamento de dados" width="650">
-   </p>
+<p align="center">
+  <img src="images/limpeza_dados.png" alt="Etapa de limpeza e tratamento de dados" width="650">
+</p>
+
 
 
 ---

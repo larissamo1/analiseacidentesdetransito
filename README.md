@@ -2,11 +2,10 @@
 
 Projeto de análise de dados desenvolvido em Python para investigar os acidentes de trânsito em Porto Alegre. Inclui limpeza, tratamento, visualização e interpretação estatística dos dados.
 
-<p align="center">
-  <a href="https://github.com/larissamo1/analiseacidentesdetransito/issues/1#issue-3529227152">
-    <img src="images/capa_analise_acidentes.png" alt="Imagem ilustrativa da análise de acidentes" width="700">
-  </a>
-</p>
+<p aligir="center">
+     <img src="images/limpeza_dados.png" alt="Etapa de limpeza e tratamento de dados" width="650">
+   </p>
+
 
 ---
 

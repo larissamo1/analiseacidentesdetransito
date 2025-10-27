@@ -64,6 +64,11 @@ Projeto acadêmico de análise de dados desenvolvido em **Python**, que investig
 
 <img width="1156" height="470" alt="mapacalor2" src="https://github.com/user-attachments/assets/87a82799-4077-454f-9b89-dde79d75559c" />
 
+  - Acidentes por tipo de Veículo.
+  
+<img width="1057" height="638" alt="acidentesportipodeveiculo" src="https://github.com/user-attachments/assets/17d00c95-be70-4be7-80e4-1ea9d1ea5b1c" />
+<br>
+
    📊 Insights Obtidos
 - Concentração de acidentes em cruzamentos, principalmente onde há semáforos, indicando potenciais infrações de trânsito.
    
@@ -72,3 +77,7 @@ Projeto acadêmico de análise de dados desenvolvido em **Python**, que investig
 
 - O ano de 2020 teve o menor número de acidentes, com menos de 4.000 casos, provavelmente devido à redução de circulação causada pela pandemia de COVID-19.
 <img width="1059" height="545" alt="grafico" src="https://github.com/user-attachments/assets/b8b702b8-564c-4357-a307-a2afef8f4f11" />
+
+- A maioria dos acidentes envolvem carros, e posteriormente motos:
+<img width="1057" height="638" alt="acidentesportipodeveiculo" src="https://github.com/user-attachments/assets/ffc4c7b5-95a0-4d81-8bb6-4b5fad27deed" />
+

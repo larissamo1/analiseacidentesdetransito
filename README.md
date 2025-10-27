@@ -47,8 +47,7 @@ Projeto acadêmico de análise de dados desenvolvido em **Python**, que investig
 
 
 2. **Limpeza e Tratamento:**  
-   Padronização de colunas, remoção de valores nulos e ajustes de tipos. Foram removidos valores nulos nas colunas de localização (latitude e longitude), garantindo a precisão das análises geográficas.
-
+   Padronização de colunas.
     ```python
     import pandas as pd
     df = pd.read_csv("data/cat_acidentes.csv", sep=';')
@@ -59,7 +58,7 @@ Projeto acadêmico de análise de dados desenvolvido em **Python**, que investig
    - Distribuição temporal dos acidentes
     <img width="1059" height="545" alt="grafico" src="https://github.com/user-attachments/assets/b3230b56-7796-47e2-ba58-4dd9ad77ad35" />
 
-   - Mapa de calor por bairro e horário  
+   - Mapa de calor.  
    
 <img width="997" height="473" alt="mapacalor1" src="https://github.com/user-attachments/assets/f3136dd2-cfb5-4ad4-a5d7-31172515766a" />
 
